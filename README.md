@@ -32,7 +32,10 @@
 - Next.js te permitirá escoger entre uno o más rendering modes para las diferentes páginas de tu aplicación
 
 ```cmd
-📌 **RESUMEN:** Existen 3 formas de poder hacer un proceso de rendering, client side la cual el navegador del cliente se encargará de transformar el JS a HTML, server side que significa que un servidor se encargara de la transformación baja demando o Static rendering, en la cual el proceso de renderizado se realiza una única vez al momento de compilar la aplicación
+📌 **RESUMEN:** Existen 3 formas de poder hacer un proceso de rendering, client side la cual el navegador
+del cliente se encargará de transformar el JS a HTML, server side que significa que un servidor se encargara
+de la transformación baja demando o Static rendering, en la cual el proceso de renderizado se realiza una 
+única vez al momento de compilar la aplicación
 ```
 
 ---
@@ -98,7 +101,11 @@ Este enfoque se conoce por:
 - Cabe aclarar que las actualizaciones sucederán en segundo plano, lo importante es la información que tan actualizada este para el usuario
 
 ```cmd
-📌 **RESUMEN:** Con ISSG puedes generar páginas bajo demanda, las cuales pueden estar generadas mediante dos estrategias de forma bloqueante y de la forma en que el usuario esta consiente del estado de carga. También puedes configurar una página de tal manera que cada cierto tiempo se actualice, esta técnica usa el enfoque state-while-revalidate, en la cual Next.js estará mirando que tiene que cambiar, actualizar y respondiendo con páginas guardadas en caché.
+📌 **RESUMEN:** Con ISSG puedes generar páginas bajo demanda, las cuales pueden estar generadas mediante dos
+estrategias de forma bloqueante y de la forma en que el usuario esta consiente del estado de carga. También
+puedes configurar una página de tal manera que cada cierto tiempo se actualice, esta técnica usa el enfoque 
+state-while-revalidate, en la cual Next.js estará mirando que tiene que cambiar, actualizar y respondiendo 
+con páginas guardadas en caché.
 ```
 
 ## Trade-off ISSG
